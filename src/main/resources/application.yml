@@ -3,7 +3,6 @@ server:
   
 logging:
   level:
-    com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'INFO'
 
 spring:
@@ -11,5 +10,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/dounine/ls
+          uri: https://github.com/dounine/qssc-config-repo
           basedir: target/config
